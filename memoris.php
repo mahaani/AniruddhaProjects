@@ -10,7 +10,7 @@ if(isset($_POST["msgheader"]))
         $MessageHeader = base64_decode($_POST["msgheader"]);
 else
  {
- echo "indata_error";
+ echo "indata_error hello add data";
  exit;
  }
 if(isset($_POST["msgbody"]))
