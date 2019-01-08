@@ -11,6 +11,8 @@ if(isset($_POST["msgheader"]))
 else
  {
  echo "indata_error";
+=======
+ echo "indata_error hello add data";
  exit;
  }
 if(isset($_POST["msgbody"]))
@@ -31,4 +33,6 @@ if(mail($MailTo,$MessageSubject,$MessageBody,$MessageHeader))
  echo "sent_ok";
 else
  echo "sent_error";
+?>
+=======
 ?>
